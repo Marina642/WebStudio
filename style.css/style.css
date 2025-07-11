@@ -1,4 +1,49 @@
-body {
-    background-color: white;
-    h1,
+body.home {
+    background-color: #FFFFFF; 
+}
+.blue {
+    color: #2196F3;
+}
+.black {
+    color: #212121;
+}
+header a {
+    color: #212121;
+}
+.highlight {
+color:#2196F3;
+}
+header .email{
+    color: #2196F3;
+}
+header .tel{
+    color: #757575;
+}
+body.studio main section:first-of-type{
+    background-color:#2F303A;
+    color:#FFFFFF;
+}
+main section:first-of-type button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+main section:nth-of-type(2) p {
+    color:#757575;
+}
+main section:nth-of-type(4) p {
+    color:#757575;
+}
+footer {
+    background-color: #2F303A;
+    color: #ffffff;
+}
+.white {
+    color: #FFFFFF;
+}
+footer address a {
+    color: #757575;
+}
+button:hover{
+    background-color: #2196F3;
+    color: #FFFFFF ;
 }
