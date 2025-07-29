@@ -1,49 +1,66 @@
+:root {
+    /* Кольори */
+    --white: #FFFFFF;
+    --blue: #2196F3;
+    --black: #212121;
+    --dark-gray: #2F303A;
+    --gray: #757575;
+    /* Шрифти */
+  --font-main: 'Roboto', sans-serif;
+  --font-accent: 'Raleway', sans-serif;
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-black: 900;
+}
+
 body.home {
-    background-color: #FFFFFF; 
+    background-color: var(--white); 
 }
 .blue {
-    color: #2196F3;
+    color: var(--blue);
 }
 .black {
-    color: #212121;
+    color: var(--black);
 }
 header a {
-    color: #212121;
+    color: var(--black);
 }
 .highlight {
-color:#2196F3;
+    color: var(--blue);
 }
-header .email{
-    color: #2196F3;
+header .email {
+    color: var(--blue);
 }
-header .tel{
-    color: #757575;
+header .tel {
+    color: var(--gray);
 }
-body.studio main section:first-of-type{
-    background-color:#2F303A;
-    color:#FFFFFF;
+body.studio main section:first-of-type {
+    background-color: var(--dark-gray);
+    color: var(--white);
 }
 main section:first-of-type button {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--blue);
+    color: var(--white);
 }
 main section:nth-of-type(2) p {
-    color:#757575;
+    color: var(--gray);
 }
 main section:nth-of-type(4) p {
-    color:#757575;
+    color: var(--gray);
 }
 footer {
-    background-color: #2F303A;
-    color: #ffffff;
+    background-color: var(--dark-gray);
+    color: var(--white);
 }
 .white {
-    color: #FFFFFF;
+    color: var(--white);
 }
 footer address a {
-    color: #757575;
+    color: var(--gray);
 }
-button:hover{
-    background-color: #2196F3;
-    color: #FFFFFF ;
+button:hover {
+    background-color: var(--blue);
+    color: var(--white);
 }
